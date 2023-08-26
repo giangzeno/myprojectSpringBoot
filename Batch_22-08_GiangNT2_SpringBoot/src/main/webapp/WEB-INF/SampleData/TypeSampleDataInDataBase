@@ -1,0 +1,19 @@
+insert into Type values ('Hành động')
+insert into Type values ('Phiêu lưu')
+insert into Type values ('Phim hài')
+insert into Type values ('Hoạt hình')
+insert into Type values ('Hình sự')
+insert into Type values ('Tâm lý')
+insert into Type values ('Tình cảm')
+insert into Type values ('Lịch sử')
+insert into Type values ('Cổ trang')
+insert into Type values ('Kinh dị')
+insert into Type values ('Chiến Tranh')
+insert into Type values ('Tâm Lí 18+')
+insert into Type values ('Kiếm Hiệp')
+insert into Type values ('Ca nhạc')
+
+(Data có kí tự đặc biệt sẽ ko insert được Moive) 
+Add (<Connector URIEncoding="utf-8"  connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>)
+vào Servers > server.xml
+

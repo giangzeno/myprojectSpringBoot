@@ -1,0 +1,2 @@
+select * from Movie join Movie_Schedule on Movie.Movie_ID = Movie_Schedule.Movie_ID join Schedule on Schedule.Schedule_ID = Movie_Schedule.Schedule_ID
+select * from Movie join Movie_Type on Movie.Movie_ID = Movie_Type.Movie_ID join Type on Type.Type_ID = Movie_Type.Type_ID
